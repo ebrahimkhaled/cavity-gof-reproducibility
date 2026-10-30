@@ -1,0 +1,17 @@
+Warning message:
+package 'CompQuadForm' was built under R version 4.4.3 
+done A_p5         n=300 (1.1 min)
+done B_p40        n=300 (3.5 min)
+done B_p100       n=300 (8.4 min)
+done H5_k25_ar03  n=295 (13.0 min)
+done prev08_k25   n=134 (16.3 min)
+done sparse5_p2n  n=300 (17.7 min)
+
+=== E27 | cavity test with the penalty chosen by cross-validation (null) | 17.7 min ===
+        cell ridge_lambda.min_cav ridge_lambda.min_text ridge_lambda.1se_cav ridge_lambda.1se_text lasso_1se_cav lasso_1se_text lam_min lam_1se   nnz   R
+        A_p5               0.0433                0.0533               0.0300                  0.96        0.0333          0.683   10.38   123.6  4.37 300
+      B_p100               0.0667                1.0000               0.0500                  1.00        0.0367          1.000   16.64   125.0 31.80 300
+       B_p40               0.0467                0.5500               0.0433                  1.00        0.0300          0.753    5.89    22.1 28.33 300
+ H5_k25_ar03               0.0475                1.0000               0.0441                  1.00        0.0576          1.000   21.07    72.0 51.69 295
+  prev08_k25               0.0448                0.9627               0.0373                  1.00        0.1418          1.000   36.02  1070.9 10.22 134
+ sparse5_p2n                   NA                    NA                   NA                    NA        0.0433          0.973      NA      NA 11.00 300

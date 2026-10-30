@@ -1,0 +1,6 @@
+done n=500 (0.8 min)
+done n=5000 (7.8 min)
+done n=20000 (40.5 min)
+n    500 R 1000 | q2: size 0.051 mean S 8.12 (SE 0.13) trace 8.03 | q3: size 0.064 mean S 7.91 trace 7.55 | median tau 0.023 | slope 1.80
+n   5000 R 1000 | q2: size 0.044 mean S 8.19 (SE 0.12) trace 8.03 | q3: size 0.049 mean S 7.97 trace 7.53 | median tau 0.490 | slope 1.99
+n  20000 R 1000 | q2: size 0.052 mean S 8.22 (SE 0.13) trace 8.03 | q3: size 0.064 mean S 8.01 trace 7.55 | median tau 0.483 | slope 2.00

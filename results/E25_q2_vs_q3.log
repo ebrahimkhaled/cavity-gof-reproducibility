@@ -1,0 +1,17 @@
+Warning message:
+package 'CompQuadForm' was built under R version 4.4.3 
+done bent_n2000     n=300  (1.1 min)
+done bent_n5000     n=300  (3.1 min)
+done bent_n20000    n=300  (11.2 min)
+done B_p100         n=300  (11.4 min)
+done H5_k25_ar03    n=300  (11.6 min)
+done prev08_k25     n=300  (11.9 min)
+
+=== E25 | q = 2 vs q = 3 recalibration (null) | 11.9 min ===
+        cell q2_chi2 q2_exact q3_chi2 q3_exact meanS2 meanS3  tr3 tau_prop1 tau_fit_med b_prop1   R
+  bent_n2000  0.0433   0.0433  0.0467   0.0433   7.92   7.50 7.37     0.756       0.935    2.46 300
+  bent_n5000  0.0500   0.0500  0.0633   0.0533   8.31   7.56 7.34     0.753       0.854    2.47 300
+ bent_n20000  0.1000   0.1000  0.0867   0.0733   8.94   7.61 7.30     0.751       0.737    2.47 300
+      B_p100  0.0633   0.0633  0.0700   0.0567   7.98   7.68 7.55     1.618       1.169    2.99 300
+ H5_k25_ar03  0.0467   0.0467  0.0700   0.0600   8.04   7.86 7.47     1.663       2.132    5.90 300
+  prev08_k25  0.0300   0.0300  0.0633   0.0433   7.94   7.65 7.44     1.751       3.498    4.48 300

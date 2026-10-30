@@ -1,0 +1,30 @@
+{
+  "title": "Reproduction materials: Goodness of fit for penalised logistic regression in high dimensions through an exact leave-one-out calibration law",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Ebrahim, Ebrahim Khaled",
+      "affiliation": "Department of Applied Statistics, Faculty of Business, Alexandria University, Alexandria, Egypt",
+      "orcid": "0009-0006-7839-8778"
+    },
+    {
+      "name": "Arashi, Mohammad",
+      "affiliation": "Department of Statistics, Faculty of Mathematical Sciences, Ferdowsi University of Mashhad, Mashhad, Iran",
+      "orcid": "0000-0002-5881-9241"
+    }
+  ],
+  "description": "<p>Code, simulation outputs and figures for the article \"Goodness of fit for penalised logistic regression in high dimensions through an exact leave-one-out calibration law\" by Ebrahim Khaled Ebrahim and Mohammad Arashi.</p><p>The deposit holds (1) the R implementation of the cavity Hosmer-Lemeshow test, which groups, recalibrates and standardises on the leave-one-out linear predictor of a ridge, lasso or elastic-net logistic fit, including its sample-split and cross-fitted versions; (2) the scripts of every simulation study, with fixed seeds, together with their per-replicate outputs, summaries and logs; (3) the analysis of the glaucoma data; and (4) the script that draws the five figures. README.md maps each figure, table and section of the article and its supplement to the script that produces it.</p><p>Code is under the MIT licence; outputs and figures are under CC BY 4.0.</p>",
+  "keywords": [
+    "Calibration",
+    "Goodness of fit",
+    "High-dimensional logistic regression",
+    "Hosmer-Lemeshow test",
+    "Leave-one-out",
+    "Penalised regression"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "notes": "Code: MIT licence. Simulation outputs and figures: CC BY 4.0."
+}

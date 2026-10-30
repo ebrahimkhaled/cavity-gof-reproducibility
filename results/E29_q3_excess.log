@@ -1,0 +1,9 @@
+Warning message:
+package 'CompQuadForm' was built under R version 4.4.3 
+=== E29 | n = 20000 | R = 400 | 15.3 min ===
+S with the TRUE curve (no estimation; reference G = 10): mean 10.178 (SE 0.233)
+S with fitted q = 3: mean 7.566 (SE 0.201) vs trace 7.300  | size 0.075
+S with fitted q = 2: mean 9.058 (SE 0.226) vs trace 8.025  | size 0.098
+tau true 0.751 vs fitted 0.746 (median) | b true 2.467 vs fitted 2.606
+decile means of the TRUE-curve residual: -0.056 +0.078 +0.007 -0.093 +0.067 +0.125 +0.008 +0.016 -0.007 +0.045 | ||mean||^2 = 0.041
+covariance eigenvalues (true curve): 1.25 1.22 1.13 1.12 1.03 0.97 0.94 0.88 0.84 0.81 

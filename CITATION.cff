@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as below."
+title: "Reproduction materials: Goodness of fit for penalised logistic regression in high dimensions through an exact leave-one-out calibration law"
+version: 1.0.0
+date-released: 2026-10-30
+license: MIT
+type: software
+authors:
+  - family-names: Ebrahim
+    given-names: Ebrahim Khaled
+    affiliation: "Department of Applied Statistics, Faculty of Business, Alexandria University, Alexandria, Egypt"
+    orcid: "https://orcid.org/0009-0006-7839-8778"
+  - family-names: Arashi
+    given-names: Mohammad
+    affiliation: "Department of Statistics, Faculty of Mathematical Sciences, Ferdowsi University of Mashhad, Mashhad, Iran"
+    orcid: "https://orcid.org/0000-0002-5881-9241"
+keywords:
+  - calibration
+  - goodness of fit
+  - high-dimensional logistic regression
+  - Hosmer-Lemeshow test
+  - leave-one-out
+  - penalised regression

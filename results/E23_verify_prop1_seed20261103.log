@@ -1,0 +1,13 @@
+=== E23 | Proposition 1 + ALO check | R = 400 x 25 obs | 3.8 min ===
+
+[B_p100]  n_obs = 10000
+  ALO error: sd 0.0000, max |.| 0.0004   vs self-influence eta_hat - xi_exact: sd 0.0750   (sd xi 0.572)
+  mean(y - Lambda(xi_exact; theta_-i)) = -0.0122 (SE 0.0044)   mean(y - m_fit) = -0.0099 (SE 0.0044)
+  Prop-1 parameters: b = 2.98 (sd 0.25), tau = 1.62 (sd 0.03); fitted logistic slope b_fit = 2.03
+ decile   obs prop1   fit    n      z
+
+[H5_ar03]  n_obs = 10000
+  ALO error: sd 0.0000, max |.| 0.0001   vs self-influence eta_hat - xi_exact: sd 0.0918   (sd xi 0.292)
+  mean(y - Lambda(xi_exact; theta_-i)) = -0.0112 (SE 0.0045)   mean(y - m_fit) = -0.0089 (SE 0.0045)
+  Prop-1 parameters: b = 5.90 (sd 0.51), tau = 1.66 (sd 0.07); fitted logistic slope b_fit = 3.89
+ decile   obs prop1   fit    n      z

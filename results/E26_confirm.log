@@ -1,0 +1,6 @@
+Warning message:
+package 'CompQuadForm' was built under R version 4.4.3 
+done enet n=1000 (0.4 min)
+done bent n=1000 (19.7 min)
+enet5_sparse10_p2n   R = 1000 | decile/q2 size 0.055 | smooth size 0.065 | MC SE 0.0069 | mean S2 8.16 (tr 8.03) | mean S3 NA (tr NA)
+bent_n20000          R = 1000 | decile/q2 size 0.081 | q3 size 0.066 | MC SE 0.0069 | mean S2 8.94 (tr 8.03) | mean S3 7.55 (tr 7.30)

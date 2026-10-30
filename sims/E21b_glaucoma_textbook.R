@@ -1,0 +1,8 @@
+HERE <- dirname(normalizePath(sub("--file=", "", grep("--file=", commandArgs(), value = TRUE)[1]))); ROOT <- dirname(HERE)
+source(file.path(ROOT, "R", "closedform_engine.R")); source(file.path(ROOT, "R", "cavity_engine.R"))
+suppressPackageStartupMessages(library(TH.data)); data("GlaucomaM", package = "TH.data")
+Xg <- scale(as.matrix(GlaucomaM[, setdiff(names(GlaucomaM), "Class")])); yg <- as.numeric(GlaucomaM$Class == "glaucoma")
+X1 <- cbind(1, Xg); bh <- cf_ridge(X1, yg, 295.3, diag(c(0, rep(1, ncol(Xg)))))
+cat(sprintf("textbook HL on the ridge fit (lambda 295.3, G 10): p = %.2e\n", naive_hl(drop(X1 %*% bh), yg, 10)))
+c10 <- cav_gof_fast(Xg, yg, 295.3, G = 10); c3 <- cav_lognormal(c10$xi, yg, G = 10)
+cat(sprintf("cavity q=2: S %.2f p %.4f | q=3: S %.2f p %.4f tau %.2f | n %d events %d\n", c10$S, c10$p_a, c3$S, c3$p_a, c3$tau, length(yg), sum(yg)))
