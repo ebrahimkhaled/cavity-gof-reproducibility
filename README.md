@@ -36,6 +36,7 @@ figure of the article and its online supplement. Every simulation writes each re
 | Supplementary Section S7 (penalty chosen by cross-validation) | `E27_cv_penalty.R` | `E27_*` |
 | Supplementary Section S8 (power) | `E30_power_strong.R`; `E20_cavity_power.R` on the data sets of `E4b_final_design_grid.R` and `E4b2_calm_final_on_E4b.R` | `E30_*`, `E20_*`, `E4b_*`, `E4b2_*` |
 | Supplementary Section S9 (the self-selection formula) | `E24_selection_formula.R` | `E24_*` |
+| Section 5.2 and Supplementary Section S12 (dependence between leave-one-out indices, before and after the projection) | `dependence_check.py` (Python 3 with NumPy; arguments: seed, penalty, replications, output file, n, p), summarised by `dependence_analyse.py` | console |
 | Section 5.3 and Supplementary Section S11 (the logistic-normal gap and the conservative reference) | `logistic_normal_gap.R`, `chi2_dominance_check.R`, `q3_reference_check.R` | console |
 
 ## How to run
