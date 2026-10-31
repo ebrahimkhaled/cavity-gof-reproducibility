@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use these materials, please cite them as below."
 title: "Reproduction materials: Goodness of fit for penalised logistic regression in high dimensions through an exact leave-one-out calibration law"
 version: 1.0.0
-date-released: 2026-10-30
+date-released: 2026-10-31
 license: MIT
 type: software
 authors:
