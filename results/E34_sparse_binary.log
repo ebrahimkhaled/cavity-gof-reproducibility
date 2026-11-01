@@ -1,0 +1,17 @@
+Warning message:
+package 'CompQuadForm' was built under R version 4.4.3 
+done bin5_p100              n=500  (0.3 min)
+done bin_rare_strong_p100   n=500  (0.6 min)
+done bin5_p200              n=500  (1.6 min)
+done bin5_p800              n=500  (14.2 min)
+done skew5_p100             n=500  (14.5 min)
+done mixed5_p100            n=500  (14.8 min)
+
+=== E34 | sparse binary / skewed predictors (null) | 14.8 min ===
+                 cell   R cavity cavity_exact textbook slope   Hbar
+            bin5_p100 500  0.040        0.040        1 2.390 0.0383
+ bin_rare_strong_p100 500  0.072        0.072        1 2.114 0.0309
+            bin5_p200 500  0.062        0.062        1 1.492 0.0715
+            bin5_p800 500  0.050        0.050        1 0.502 0.2238
+           skew5_p100 500  0.058        0.056        1 1.775 0.1014
+          mixed5_p100 500  0.046        0.046        1 0.353 0.1028

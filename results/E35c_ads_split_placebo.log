@@ -1,0 +1,18 @@
+Warning message:
+package 'glmnet' was built under R version 4.4.3 
+Warning message:
+package 'CompQuadForm' was built under R version 4.4.3 
+real data: split P = 0.0086, cross-fitted P = 0.0159
+reps 1-12  (3.4 min)
+reps 13-24  (6.8 min)
+reps 25-36  (10.1 min)
+reps 37-48  (13.5 min)
+reps 49-60  (16.8 min)
+reps 61-72  (20.1 min)
+reps 73-84  (23.5 min)
+reps 85-96  (26.9 min)
+reps 97-108  (30.2 min)
+reps 109-120  (33.5 min)
+
+=== E35c | Internet-Ads placebo, 120 replications ===
+split test size 0.408 (SE 0.045); cross-fitted size 0.517 (SE 0.046)

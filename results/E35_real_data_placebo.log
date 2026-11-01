@@ -1,0 +1,25 @@
+Warning message:
+package 'glmnet' was built under R version 4.4.3 
+Warning message:
+package 'CompQuadForm' was built under R version 4.4.3 
+placebo ads       reps 1-12  (7.2 min)
+placebo ads       reps 13-24  (14.8 min)
+placebo ads       reps 25-36  (22.1 min)
+placebo ads       reps 37-48  (30.1 min)
+placebo ads       reps 49-60  (38.0 min)
+placebo ads       reps 61-72  (45.8 min)
+placebo ads       reps 73-84  (53.8 min)
+placebo ads       reps 85-96  (61.4 min)
+placebo ads       reps 97-100  (65.2 min)
+
+Internet Advertisements: n = 3264, p = 1554 (p/n = 0.48), 454 adverts (13.9%)
+ridge penalty (1-se rule): glmnet lambda = 0.00539, paper scale lambda = 17.58
+cavity test, two-parameter: S = 20.37, P = 0.0090 (chi2_8), P = 0.0098 (exact projection); slope b = 2.27, mean leverage 0.020
+cavity test, three-parameter: S = 20.37, P = 0.0090 (chi2_8), tau = 0.001
+textbook Hosmer-Lemeshow on the ridge fit: P = 7.48e-41
+standardised cavity residuals by decile: -0.88 -0.52 -1.68 -0.25 -2.25 -0.83 -0.55 -0.68 2.97 -1.05 
+
+=== E35 | placebo size on the real predictors ===
+     data   R cavity cavity_exact textbook slope
+      ads 100  0.570        0.570    1.000  1.28
+ glaucoma 500  0.054        0.054    0.152  1.34

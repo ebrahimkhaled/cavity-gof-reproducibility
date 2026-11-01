@@ -1,0 +1,23 @@
+Warning message:
+package 'glmnet' was built under R version 4.4.3 
+Warning message:
+package 'CompQuadForm' was built under R version 4.4.3 
+real Internet-Ads data: twin share 0.51, trace ratio 1.08, P(Omega) = 0.0098, P(cluster) = 0.0164
+real glaucoma data: twin share 0.00, trace ratio 1.00, P(Omega) = 0.0132, P(cluster) = 0.0132
+glaucoma  reps 1-120  (0.1 min)
+glaucoma  reps 121-240  (0.1 min)
+glaucoma  reps 241-360  (0.1 min)
+glaucoma  reps 361-480  (0.1 min)
+glaucoma  reps 481-500  (0.1 min)
+ads_size  reps 1-12  (10.1 min)
+ads_size  reps 13-24  (20.1 min)
+ads_size  reps 25-36  (30.0 min)
+ads_size  reps 37-48  (39.9 min)
+ads_size  reps 49-60  (49.9 min)
+ads_size  reps 61-72  (59.6 min)
+ads_size  reps 73-84  (69.0 min)
+ads_size  reps 85-96  (78.8 min)
+ads_size  reps 97-108  (89.8 min)
+ads_size  reps 109-120  (101.1 min)
+ads_power reps 1-12  (111.8 min)
+ads_power reps 13-24  (122.6 min)

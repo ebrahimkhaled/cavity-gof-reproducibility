@@ -1,0 +1,23 @@
+Warning message:
+package 'CompQuadForm' was built under R version 4.4.3 
+done A_p5         n=500  (0.3 min)
+done B_p40        n=500  (0.6 min)
+done B_p100       n=500  (21.5 min)
+done B_p160       n=500  (24.3 min)
+done B_p800       n=500  (136.7 min)
+done B_p40_quad   n=500  (137.1 min)
+done B_p100_quad  n=500  (183.1 min)
+done B_p40_int    n=500  (183.5 min)
+done B_p100_int   n=500  (211.7 min)
+
+=== E33 | cavity vs K-fold recalibration vs GRPtest | 211.8 min ===
+        cell   R R_grp cavity kfold5 kfold10   grp textbook
+        A_p5 500     0  0.040  0.052   0.052    NA    0.928
+       B_p40 500     0  0.042  0.046   0.044    NA    1.000
+      B_p100 500   200  0.052  0.050   0.042 0.005    1.000
+      B_p160 500     0  0.038  0.052   0.054    NA    1.000
+      B_p800 500   200  0.048  0.054   0.036 0.330    1.000
+  B_p40_quad 500     0  0.772  0.680   0.716    NA    0.996
+ B_p100_quad 500   200  0.476  0.360   0.432 0.110    1.000
+   B_p40_int 500     0  0.070  0.066   0.060    NA    0.998
+  B_p100_int 500   200  0.044  0.050   0.044 0.470    1.000

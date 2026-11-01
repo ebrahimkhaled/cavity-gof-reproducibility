@@ -1,0 +1,16 @@
+=== E35e | share of observations with a twin (leave-one-out cosine above the cut-off) ===
+               design cut_0.9 cut_0.999
+             A, p = 5  0.9150     0.000
+            B, p = 40  0.0000     0.000
+           B, p = 100  0.0000     0.000
+           B, p = 800  0.0000     0.000
+          t3, p = 100  0.0000     0.000
+      binary, p = 100  0.0000     0.000
+      binary, p = 800  0.0000     0.000
+ rare binary, p = 100  0.0000     0.000
+ exponential, p = 100  0.0000     0.000
+      glaucoma (real)  0.0153     0.000
+  Internet Ads (real)  0.6284     0.506
+
+Internet Ads: 1966 distinct rows among 3264 images; 51% of images share their row; largest block 146
+simulation-calibrated P for the real Internet-Ads data: 38 of 100 placebo statistics at least as large, P = 0.39

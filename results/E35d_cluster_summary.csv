@@ -1,0 +1,4 @@
+arm,R,omega,cluster,se_cluster,textbook,twin
+glaucoma,500,0.054,0.054,0.01,0.152,0.0
+ads_size,120,0.583,0.208,0.037,1.0,0.506
+ads_power,24,0.833,0.625,0.099,1.0,0.506
