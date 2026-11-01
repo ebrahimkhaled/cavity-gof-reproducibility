@@ -46,3 +46,32 @@ cav_from_index_cluster <- function(xi, y, cl, G = 10) {
   list(S = S, e = e, p_chi2 = pchisq(S, G - 2, lower.tail = FALSE), p_omega = cav_pvalue(S, Om), p_cluster = cav_pvalue(S, Oc),
        trace_ratio = sum(diag(Oc)) / sum(diag(Om)))
 }
+
+# Kernel version (E35f): every pair i != j is weighted by w(c_ij) = max(0, (c_ij - c0) / (1 - c0)), where c_ij is the
+# leave-one-out cosine, so near-repeats count in proportion to how close they are and exact repeats count fully.
+#   Omega_k = Omega + sum_{i != j} w(c_ij) k_i k_j' r_i r_j
+cav_cosine <- function(X, beta, lambda) {
+  X1 <- cbind(1, X); pi <- cf_expit(drop(X1 %*% beta)); w <- pi * (1 - pi)
+  L <- X1 %*% chol2inv(chol(crossprod(X1, w * X1) + lambda * diag(c(0, rep(1, ncol(X))))))
+  B <- tcrossprod(L, X1); q <- diag(B); B / sqrt(outer(q, q))
+}
+cav_from_index_kernel <- function(xi, y, C, c0s = c(0.9, 0.95, 0.99), G = 10) {
+  n <- length(y); rc <- cav_recal_fit(xi, y)
+  m <- pmin(pmax(cf_expit(rc[1] + rc[2] * xi), 1e-9), 1 - 1e-9); v <- m * (1 - m)
+  groups <- pmin(ceiling(rank(xi, ties.method = "random") / (n / G)), G)
+  idx <- split(seq_len(n), groups); G <- length(idx)
+  Vg <- vapply(idx, function(I) sum(v[I]), 0.0)
+  r <- y - m; e <- vapply(idx, function(I) sum(r[I]), 0.0) / sqrt(Vg)
+  Z <- cbind(1, xi); Fr <- crossprod(Z, v * Z)
+  Ur <- t(vapply(idx, function(I) colSums(v[I] * Z[I, , drop = FALSE]), numeric(2))) / sqrt(Vg)
+  Om <- diag(G) - Ur %*% solve(Fr, t(Ur))
+  K <- -Z %*% solve(Fr, t(Ur)); K[cbind(seq_len(n), groups)] <- K[cbind(seq_len(n), groups)] + 1 / sqrt(Vg[groups])
+  KR <- K * r; S <- sum(e^2)
+  out <- c(omega = cav_pvalue(S, Om))
+  for (c0 in c0s) {
+    Wk <- pmax((C - c0) / (1 - c0), 0); diag(Wk) <- 0   # matrix first, so pmax keeps the dimensions
+    Ok <- Om + crossprod(KR, Wk %*% KR); ev <- eigen(Ok, symmetric = TRUE)
+    out[paste0("k", c0)] <- cav_pvalue(S, ev$vectors %*% (pmax(ev$values, 0) * t(ev$vectors)))
+  }
+  out
+}

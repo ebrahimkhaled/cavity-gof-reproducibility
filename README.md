@@ -40,7 +40,7 @@ figure of the article and its online supplement. Every simulation writes each re
 | Supplementary Section S9.1 (K-fold and residual-prediction comparators) | `E33_comparators.R` (needs the CRAN package `GRPtests`) | `E33_*` |
 | Supplementary Section S9.2 (sparse binary and skewed predictors) | `E34_sparse_binary_stress.R`, `E34b_confirm_rare_binary.R` | `E34_*`, `E34b_*` |
 | Supplementary Section S9.3 and Section 7 (placebo checks on real predictors) | `E35_real_data_placebo.R` | `E35_*` |
-| Supplementary Section S9.4 and Section 8 (Internet Advertisements: the placebo failure, its cause and the twin-share diagnostic) | `E35_real_data_placebo.R` (placebo); `E35b_ads_placebo_diagnosis.R` (exact leave-one-out and ten-fold check); `E35c_ads_split_placebo.R` (split test); `E35d_cluster_correction.R` (cluster correction); `E35e_twin_share.R` (diagnostic and simulation-calibrated P) | `E35_*`, `E35b_*`, `E35c_*`, `E35d_*`, `E35e_twin_share.txt` |
+| Supplementary Section S9.4 and Section 8 (Internet Advertisements: the placebo failure, its cause and the twin-share diagnostic) | `E35_real_data_placebo.R` (placebo); `E35b_ads_placebo_diagnosis.R` (exact leave-one-out and ten-fold check); `E35c_ads_split_placebo.R` (split test); `E35d_cluster_correction.R` (cluster correction); `E35e_twin_share.R` (diagnostic and simulation-calibrated P); `E35f_ads_misfit_decomposition.R` (misfit and noise parts, kernel correction); `E35g_ads_conditional_calibration.R` (size of the reference simulated on the observed design) | `E35_*`, `E35b_*` to `E35g_*`, `E35e_twin_share.txt` |
 | Supplementary Section S10 (the self-selection formula) | `E24_selection_formula.R` | `E24_*` |
 | Section 5.3 and Supplementary Section S12 (the logistic-normal gap, the eigenvalues of the covariance and the conservative reference) | `logistic_normal_gap.R`, `q3_eigen_check.R`, `chi2_dominance_check.R`, `chi2_dominance_three_weights.R`, `q3_reference_check.R` | console |
 | Section 5.2 and Supplementary Section S13 (dependence between leave-one-out indices, before and after the projection) | `dependence_check.py` (Python 3 with NumPy; arguments: seed, penalty, replications, output file, n, p), summarised by `dependence_analyse.py` and `dependence_excess_se.py` | console |
@@ -73,6 +73,10 @@ https://doi.org/10.1145/301136.301186; data DOI https://doi.org/10.24432/C5V011)
 
 ## Changes
 
+- 1.2.0: the misfit decomposition and kernel correction (E35f) and the size of the reference simulated
+  on the observed design (E35g; stopped after 24 of 60 outer data sets, summary computed from the
+  per-replicate file); the twin-share and cluster-correction functions in `R/cluster_correction.R`
+  gain the kernel version.
 - 1.1.0: new title of the article; further comparators (E33), sparse binary and skewed designs (E34,
   E34b), placebo checks on real predictors (E35), the Internet Advertisements boundary case with its diagnosis
   and the twin-share diagnostic (E35b to E35e, `R/cluster_correction.R`; the E35d run was stopped after

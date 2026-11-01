@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use these materials, please cite them as below."
 title: "Reproduction materials: A leave-one-out goodness-of-fit test for penalised logistic regression in high dimensions"
-version: 1.1.0
+version: 1.2.0
 date-released: 2026-11-01
 license: MIT
 type: software

@@ -1,0 +1,9 @@
+Warning message:
+package 'glmnet' was built under R version 4.4.3 
+Warning message:
+package 'CompQuadForm' was built under R version 4.4.3 
+reps 1-12  (167.8 min)
+reps 13-24  (312.9 min)
+
+[run stopped after 24 of the planned 60 outer data sets (two batches of 12), because each batch took about 2.5 hours
+ on the shared machine; E35g_ads_conditional_summary.csv was computed from the per-replicate file]

@@ -1,7 +1,7 @@
 {
   "title": "Reproduction materials: A leave-one-out goodness-of-fit test for penalised logistic regression in high dimensions",
   "upload_type": "software",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "language": "eng",
   "creators": [
     {
@@ -15,7 +15,7 @@
       "orcid": "0000-0002-5881-9241"
     }
   ],
-  "description": "<p>Code, simulation outputs and figures for the article \"A leave-one-out goodness-of-fit test for penalised logistic regression in high dimensions\" by Ebrahim Khaled Ebrahim and Mohammad Arashi.</p><p>The deposit holds (1) the R implementation of the cavity Hosmer-Lemeshow test, which groups, recalibrates and standardises on the leave-one-out linear predictor of a ridge, lasso or elastic-net logistic fit, including its sample-split and cross-fitted versions; (2) the scripts of every simulation study, with fixed seeds, together with their per-replicate outputs, summaries and logs; (3) the glaucoma analysis and placebo checks of size on the glaucoma and Internet Advertisements predictors, with the diagnosis of the Internet Advertisements case, where repeated rows of predictors make the test reject too often, and the twin-share diagnostic; and (4) the script that draws the five figures. README.md maps each figure, table and section of the article and its supplement to the script that produces it.</p><p>Code is under the MIT licence; outputs and figures are under CC BY 4.0.</p>",
+  "description": "<p>Code, simulation outputs and figures for the article \"A leave-one-out goodness-of-fit test for penalised logistic regression in high dimensions\" by Ebrahim Khaled Ebrahim and Mohammad Arashi.</p><p>The deposit holds (1) the R implementation of the cavity Hosmer-Lemeshow test, which groups, recalibrates and standardises on the leave-one-out linear predictor of a ridge, lasso or elastic-net logistic fit, including its sample-split and cross-fitted versions; (2) the scripts of every simulation study, with fixed seeds, together with their per-replicate outputs, summaries and logs; (3) the glaucoma analysis and placebo checks of size on the glaucoma and Internet Advertisements predictors, with the diagnosis of the Internet Advertisements case, where repeated rows of predictors make the closed-form reference reject too often, the twin-share diagnostic, and the size check of a reference simulated on the observed design, which restores the level; and (4) the script that draws the five figures. README.md maps each figure, table and section of the article and its supplement to the script that produces it.</p><p>Code is under the MIT licence; outputs and figures are under CC BY 4.0.</p>",
   "keywords": [
     "Calibration",
     "Goodness of fit",
