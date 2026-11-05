@@ -1,0 +1,37 @@
+Warning message:
+package 'CompQuadForm' was built under R version 4.4.3 
+reps 5-44 (0.1 min)
+reps 45-84 (0.2 min)
+reps 85-124 (0.3 min)
+reps 125-164 (0.4 min)
+reps 165-204 (0.4 min)
+reps 205-244 (0.5 min)
+reps 245-284 (0.6 min)
+reps 285-324 (0.7 min)
+reps 325-364 (0.8 min)
+reps 365-404 (0.9 min)
+reps 405-444 (1.0 min)
+reps 445-484 (1.1 min)
+reps 485-524 (1.1 min)
+reps 525-564 (1.3 min)
+reps 565-604 (1.4 min)
+reps 605-644 (1.5 min)
+reps 645-684 (1.6 min)
+reps 685-724 (1.7 min)
+reps 725-764 (1.8 min)
+reps 765-804 (1.8 min)
+reps 805-844 (2.0 min)
+reps 845-884 (2.1 min)
+reps 885-924 (2.2 min)
+reps 925-964 (2.3 min)
+reps 965-1000 (2.4 min)
+
+=== E37 | glaucoma placebo, corrected standardisation | R = 1000 ===
+          test           a01           a05           a10
+      old_chi2 0.004 (0.002) 0.046 (0.007) 0.106 (0.010)
+     old_exact 0.004 (0.002) 0.046 (0.007) 0.106 (0.010)
+   new_q2_chi2 0.005 (0.002) 0.045 (0.007) 0.102 (0.010)
+  new_q2_exact 0.005 (0.002) 0.045 (0.007) 0.101 (0.010)
+ new_q3_chi2G2 0.004 (0.002) 0.041 (0.006) 0.095 (0.009)
+      textbook 0.023 (0.005) 0.163 (0.012) 0.333 (0.015)
+paired old vs new (q2 chi2) rejections at .05: both 40, old only 6, new only 5

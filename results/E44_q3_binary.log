@@ -1,0 +1,12 @@
+Warning message:
+package 'glmnet' was built under R version 4.4.3 
+Warning message:
+package 'CompQuadForm' was built under R version 4.4.3 
+done bin5_p100              E34 (0.4 min)
+done bin_rare_strong_p100   E34 (0.9 min)
+done bin5_p200              E34 (1.4 min)
+done bin5_p800              E34 (6.2 min)
+done skew5_p100             E34 (6.5 min)
+done mixed5_p100            E34 (6.8 min)
+done bin_rare_strong_p100   E34b (7.7 min)
+E44 binary finished (7.7 min)

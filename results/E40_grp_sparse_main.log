@@ -1,0 +1,6 @@
+Warning message:
+package 'CompQuadForm' was built under R version 4.4.3 
+done indep_null  (5.2 min)
+done indep_quad  (15.5 min)
+done indep_int   (25.7 min)
+E40 main finished (25.7 min)

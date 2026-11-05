@@ -1,0 +1,4 @@
+inside (50 seeds): lambda_1se median 127.8 [range 60.7, 390.4]; lambda_min median 9.4 [5.9, 26.3]
+        corrected cavity P at lambda_1se: median 0.016 [range 0.012, 0.102], share < .05 = 0.96; at lambda_min: median 0.042 [0.013, 0.211], share < .05 = 0.56
+global (50 seeds): lambda_1se median 139.9 [range 66.5, 354.8]; lambda_min median 9.9 [5.9, 23.9]
+        corrected cavity P at lambda_1se: median 0.016 [range 0.012, 0.053], share < .05 = 0.98; at lambda_min: median 0.037 [0.027, 0.211], share < .05 = 0.64

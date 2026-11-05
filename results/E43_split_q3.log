@@ -1,0 +1,15 @@
+Warning message:
+package 'glmnet' was built under R version 4.4.3 
+Warning message:
+package 'CompQuadForm' was built under R version 4.4.3 
+done A_p5               (0.4 min)
+done B_p40              (0.8 min)
+done B_p100             (1.2 min)
+done B_p160             (1.7 min)
+done H5_k25_ar03        (2.1 min)
+done prev08_k25         (2.6 min)
+done lasso_sparse5_p2n  (3.0 min)
+done A_cubic1           (4.0 min)
+done B_p40_quad1        (4.5 min)
+done B_p100_quad1       (5.2 min)
+E43 e31 finished (5.2 min)

@@ -1,0 +1,32 @@
+Warning message:
+package 'CompQuadForm' was built under R version 4.4.3 
+done A_n500
+done A_n5000
+done A_n20000
+done B_p100
+done B_p160
+done bent_n5000
+A_n500      R 300 | true (Prop 2) tau median 0.169
+   default fit (start 0.5): tau quantiles 10/25/50/75/90 0.002 0.004 0.044 3.359 15.378; nll above the converged optimum: median 0.0000, max 2.9415
+   converged fit:           tau quantiles 10/25/50/75/90 0.001 0.001 0.001 3.588 15.693; share tau < 0.01 0.53; log-lik gain over q=2 median -0.000 (90% 0.959)
+   size at .05 (chi2_8): q=2 0.053 (0.013) | q=3 default 0.043 (0.012) | q=3 converged 0.043 (0.012) | max |S_def - S_conv| 5.571, median 0.0000
+A_n5000     R 300 | true (Prop 2) tau median 0.057
+   default fit (start 0.5): tau quantiles 10/25/50/75/90 0.004 0.007 0.490 2.841 5.531; nll above the converged optimum: median 0.0000, max 1.2457
+   converged fit:           tau quantiles 10/25/50/75/90 0.001 0.001 0.001 2.952 6.072; share tau < 0.01 0.53; log-lik gain over q=2 median -0.000 (90% 0.640)
+   size at .05 (chi2_8): q=2 0.070 (0.015) | q=3 default 0.063 (0.014) | q=3 converged 0.063 (0.014) | max |S_def - S_conv| 2.164, median 0.0002
+A_n20000    R 300 | true (Prop 2) tau median 0.029
+   default fit (start 0.5): tau quantiles 10/25/50/75/90 0.005 0.014 0.483 0.483 3.358; nll above the converged optimum: median 0.0002, max 0.7939
+   converged fit:           tau quantiles 10/25/50/75/90 0.001 0.001 0.001 1.776 4.219; share tau < 0.01 0.53; log-lik gain over q=2 median -0.000 (90% 0.991)
+   size at .05 (chi2_8): q=2 0.073 (0.015) | q=3 default 0.063 (0.014) | q=3 converged 0.060 (0.014) | max |S_def - S_conv| 1.095, median 0.0028
+B_p100      R 500 | true (Prop 2) tau median 1.618
+   default fit (start 0.5): tau quantiles 10/25/50/75/90 0.002 0.004 0.491 3.950 15.580; nll above the converged optimum: median 0.0000, max 1.7856
+   converged fit:           tau quantiles 10/25/50/75/90 0.001 0.001 1.178 5.784 15.836; share tau < 0.01 0.46; log-lik gain over q=2 median 0.010 (90% 1.114)
+   size at .05 (chi2_8): q=2 0.058 (0.010) | q=3 default 0.050 (0.010) | q=3 converged 0.050 (0.010) | max |S_def - S_conv| 2.531, median 0.0000
+B_p160      R 500 | true (Prop 2) tau median 1.671
+   default fit (start 0.5): tau quantiles 10/25/50/75/90 0.002 0.003 0.493 4.346 16.265; nll above the converged optimum: median 0.0000, max 1.8102
+   converged fit:           tau quantiles 10/25/50/75/90 0.001 0.001 1.237 5.860 16.517; share tau < 0.01 0.46; log-lik gain over q=2 median 0.012 (90% 1.018)
+   size at .05 (chi2_8): q=2 0.044 (0.009) | q=3 default 0.034 (0.008) | q=3 converged 0.034 (0.008) | max |S_def - S_conv| 3.469, median 0.0000
+bent_n5000  R 300 | true (Prop 2) tau median 0.752
+   default fit (start 0.5): tau quantiles 10/25/50/75/90 0.003 0.013 0.854 1.675 3.365; nll above the converged optimum: median 0.0000, max 0.0081
+   converged fit:           tau quantiles 10/25/50/75/90 0.001 0.001 0.854 1.675 3.371; share tau < 0.01 0.28; log-lik gain over q=2 median 0.203 (90% 1.724)
+   size at .05 (chi2_8): q=2 0.050 (0.013) | q=3 default 0.043 (0.012) | q=3 converged 0.043 (0.012) | max |S_def - S_conv| 0.097, median 0.0001
