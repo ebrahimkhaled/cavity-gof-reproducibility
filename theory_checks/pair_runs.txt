@@ -1,0 +1,64 @@
+{"n": 800, "p": 200, "lam": 0.25, "ar": 0.0, "s": 2.0, "reps": 20000, "sigma": [0.5000337110487768, 0.4624326586179203, 0.08159799626148882], "theta": [-2.833794075749916, 5.667206056580229, 1.3792988363200247], "gamma": 0.17111100838909188, "gamma_hat_data": 0.17188005057401046, "trace_cells_MC": 0.909413842659899, "se_tc": 0.033117840073476436, "trace_cells_pred": 0.8263000613882258, "trace_proj_MC": 0.06950149841687378, "se_tp": 0.03301040337360447, "trace_proj_pred": 3.334398633012616e-05, "trace_Omega": 6.895357721508886, "along_a_MC": 0.8402717359464247, "se_al": 0.015364651761263753, "along_a_pred": 0.832915031534631, "frac_unexplained": 9.33947128171748e-05, "resid_norm": 0.0003834161905265887, "k_norm": 4.105330794015574, "F_eigs": [6.896255931383868e-06, 0.00808978576248235, 0.15378625963850548], "time": 42.21579122543335}
+score cov ratios MC [0.9966 1.0266 1.709 ]
+score cov ratios pred [1.     1.     1.7031]
+max abs K-pred 0.027314953331641995  max abs pred 0.16038222684905037
+{"n": 1600, "p": 400, "lam": 0.25, "ar": 0.0, "s": 2.0, "reps": 20000, "sigma": [0.5005667028448564, 0.46342298126235454, 0.0815362756665663], "theta": [-2.845041815518571, 5.683641759129056, 1.3660697915571998], "gamma": 0.17092944545772695, "gamma_hat_data": 0.1713647159894533, "trace_cells_MC": 0.7827201450370351, "se_tc": 0.037128681560863505, "trace_cells_pred": 0.8263188719076233, "trace_proj_MC": -0.05238104366710788, "se_tp": 0.021116166587173014, "trace_proj_pred": 3.343835409726445e-05, "trace_Omega": 6.891978870059717, "along_a_MC": 0.8340323350899619, "se_al": 0.022480580158820776, "along_a_pred": 0.8329529233933627, "frac_unexplained": 9.365387954690659e-05, "resid_norm": 0.0003847347935244813, "k_norm": 4.108049718664208, "F_eigs": [7.082969327967019e-06, 0.008106912096327929, 0.15411824278700903], "time": 329.3404281139374}
+score cov ratios MC [0.9936 1.0117 1.6988]
+score cov ratios pred [1.     1.     1.7006]
+max abs K-pred 0.023065425589370053  max abs pred 0.15988432064246055
+{"n": 3200, "p": 800, "lam": 0.25, "ar": 0.0, "s": 2.0, "reps": 8000, "sigma": [0.5000780371357821, 0.4630804654866634, 0.08146837354996539], "theta": [-2.842530912618094, 5.684174671814841, 1.3677697470684818], "gamma": 0.17088840835487995, "gamma_hat_data": 0.17108952554366127, "trace_cells_MC": 0.9084744181019221, "se_tc": 0.06871395917777498, "trace_cells_pred": 0.8266042744391124, "trace_proj_MC": 0.049695237245361415, "se_tp": 0.03694465340694091, "trace_proj_pred": 3.344524113417604e-05, "trace_Omega": 6.892414570543442, "along_a_MC": 0.8724967394963036, "se_al": 0.03381703199885388, "along_a_pred": 0.8332259865753132, "frac_unexplained": 9.36412477425643e-05, "resid_norm": 0.0003849285479652757, "k_norm": 4.11067299128168, "F_eigs": [7.057122878046918e-06, 0.0081018606512752, 0.15402111433449822], "time": 944.0636031627655}
+score cov ratios MC [0.9792 1.0189 1.7318]
+score cov ratios pred [1.     1.     1.7013]
+max abs K-pred 0.024844003452621874  max abs pred 0.15993437013250944
+{"n": 400, "p": 100, "lam": 4.16, "ar": 0.7, "s": 2.31, "reps": 2000, "sigma": [0.4981584355885415, 0.22047340582487782, 0.017997928659171058], "theta": [-6.102407061083289, 12.249932200533141, 2.635315726624618], "gamma": 0.011422970209414083, "gamma_hat_data": 0.01389823414385571, "trace_cells_MC": 0.3721417039588689, "se_tc": 0.11462469823268372, "trace_cells_pred": 0.19496676178694247, "trace_proj_MC": 0.21456317195329425, "se_tp": 0.10577480253591373, "trace_proj_pred": 1.215789757602184e-05, "trace_Omega": 7.013471222819809, "along_a_MC": 0.1533021555830032, "se_al": 0.032000399497575466, "along_a_pred": 0.19543460206837662, "frac_unexplained": 0.00014550705966856855, "resid_norm": 0.002132833898312075, "k_norm": 14.657941017914718, "F_eigs": [6.337984782280458e-07, 0.0025695302399972955, 0.12135686018309969], "time": 2.6099419593811035}
+score cov ratios MC [0.9833 1.082  1.152 ]
+score cov ratios pred [1.     1.     1.1637]
+max abs K-pred 0.07532615765615394  max abs pred 0.0412720571056321
+{"n": 400, "p": 40, "lam": 1.04, "ar": 0.7, "s": 2.31, "reps": 2000, "sigma": [0.49976497783845786, 0.35710919846200945, 0.037449506109604076], "theta": [-4.7656348292803274, 9.535751884600352, 1.9307952877577725], "gamma": 0.017400755678004122, "gamma_hat_data": 0.019841811028078936, "trace_cells_MC": 0.17288837706417637, "se_tc": 0.13827360459865828, "trace_cells_pred": 0.15918923820686318, "trace_proj_MC": 0.035119975454127074, "se_tp": 0.08515365490352698, "trace_proj_pred": 1.3736372628660806e-05, "trace_Omega": 6.893054526161415, "along_a_MC": 0.14202873896036342, "se_al": 0.048162117145299096, "along_a_pred": 0.1598461934098499, "frac_unexplained": 0.00019695015007371421, "resid_norm": 0.0015202298930336055, "k_norm": 7.7188562306990685, "F_eigs": [3.005327404338765e-06, 0.0044057415073835956, 0.1314503080529531], "time": 2.180959701538086}
+score cov ratios MC [0.9224 1.0158 1.1144]
+score cov ratios pred [1.     1.     1.1307]
+max abs K-pred 0.07782851708507076  max abs pred 0.028872091238229695
+{"n": 400, "p": 300, "lam": 4.16, "ar": 0.7, "s": 2.31, "reps": 2000, "sigma": [0.4999070189534849, 0.2162280526737929, 0.021516014076860546], "theta": [-5.023882250687073, 10.049633352226513, 3.16308735016246], "gamma": 0.032038838405069485, "gamma_hat_data": 0.03446747214317825, "trace_cells_MC": 0.5442818065323294, "se_tc": 0.1106246381949056, "trace_cells_pred": 0.4641419353130183, "trace_proj_MC": 0.04148756477818029, "se_tp": 0.07560337682188581, "trace_proj_pred": 1.5701384298881587e-05, "trace_Omega": 7.078577408233854, "along_a_MC": 0.5002226201355889, "se_al": 0.061941814859678056, "along_a_pred": 0.46519823239346136, "frac_unexplained": 8.232390507971029e-05, "resid_norm": 0.0010380970144093474, "k_norm": 12.609909763199497, "F_eigs": [2.723239592491887e-07, 0.0023102752103246345, 0.11537283443092351], "time": 7.5691978931427}
+score cov ratios MC [1.0068 1.035  1.4496]
+score cov ratios pred [1.     1.     1.3917]
+max abs K-pred 0.08756852337737545  max abs pred 0.10793221482431242
+{"n": 300, "p": 600, "lam": 4.16, "ar": 0.7, "s": 2.31, "reps": 2000, "sigma": [0.500017283986304, 0.19598598279273408, 0.027345202356618765], "theta": [-3.583677221963943, 7.167106691580093, 3.9314475512702947], "gamma": 0.07149775023565921, "gamma_hat_data": 0.07476156192554985, "trace_cells_MC": 0.926224959620224, "se_tc": 0.12444860274697353, "trace_cells_pred": 0.8231038883132619, "trace_proj_MC": 0.07898316309306516, "se_tp": 0.08552087748939875, "trace_proj_pred": 6.548590418804724e-06, "trace_Omega": 7.145697310084148, "along_a_MC": 0.8371443667253377, "se_al": 0.06439352497910406, "along_a_pred": 0.8249894380046253, "frac_unexplained": 2.1250817201901612e-05, "resid_norm": 0.000216913442976972, "k_norm": 10.207298896607217, "F_eigs": [5.129150195075567e-08, 0.0021768422935541, 0.1076436229299686], "time": 28.794710874557495}
+score cov ratios MC [1.0154 1.0407 1.7537]
+score cov ratios pred [1.     1.     1.7063]
+max abs K-pred 0.071952256740071  max abs pred 0.21406632618576124
+{"n": 400, "p": 100, "lam": 0.25, "ar": 0.0, "s": 4.0, "reps": 2000, "sigma": [0.497938872280063, 1.1188578756864087, 0.09915732554140887], "theta": [-5.618574581545147, 11.283663305533235, 3.3751844440104044], "gamma": 0.17141111373232135, "gamma_hat_data": 0.17294833310633276, "trace_cells_MC": 0.9957947103053265, "se_tc": 0.1282045872328437, "trace_cells_pred": 0.789429508989869, "trace_proj_MC": 0.10416041819514825, "se_tp": 0.09954029362871297, "trace_proj_pred": 0.0003831332416265327, "trace_Omega": 6.568354452179599, "along_a_MC": 0.8555808550803455, "se_al": 0.07089446104126051, "along_a_pred": 0.791950003021451, "frac_unexplained": 0.0010119587551351353, "resid_norm": 0.003722389954455737, "k_norm": 3.6784008592906092, "F_eigs": [3.1403125798132315e-06, 0.0035815967871591276, 0.07767415832112257], "time": 2.814358711242676}
+score cov ratios MC [1.0127 1.018  1.6801]
+score cov ratios pred [1.     1.     1.6205]
+max abs K-pred 0.0735092033919763  max abs pred 0.13687839738232233
+{"n": 400, "p": 100, "lam": 0.05, "ar": 0.0, "s": 4.0, "reps": 2000, "sigma": [0.4979727101892476, 1.3776836217217059, 0.15161692173901048], "theta": [-4.524883100271902, 9.086608578514841, 3.4815281843841532], "gamma": 0.28487082322666485, "gamma_hat_data": 0.28493359584043687, "trace_cells_MC": 1.1261614503441326, "se_tc": 0.11069854624530455, "trace_cells_pred": 0.9732995809703135, "trace_proj_MC": 0.06048226596128333, "se_tp": 0.06906050456038981, "trace_proj_pred": 0.00041176636471582323, "trace_Omega": 6.5829225497080435, "along_a_MC": 1.0281110982044948, "se_al": 0.07349325319037674, "along_a_pred": 0.977325664553284, "frac_unexplained": 0.0008880770282289451, "resid_norm": 0.002428858997320617, "k_norm": 2.7349643331777074, "F_eigs": [3.455154542535878e-06, 0.0044955076158541074, 0.0772778475612235], "time": 2.6298117637634277}
+score cov ratios MC [1.0075 1.0216 1.8256]
+score cov ratios pred [1.     1.     1.7733]
+max abs K-pred 0.1259342264252445  max abs pred 0.17027981924620889
+. RuntimeWarning: divide by zero encountered in divide
+  return np.stack([La / v, u * La / v, Lam_tau2(u, a0, B0, t20) / v], -1)
+. RuntimeWarning: invalid value encountered in multiply
+  Ivec = (Psi * (v * WG)[:, None]).T @ Psi
+. RuntimeWarning: invalid value encountered in matmul
+  Ivec = (Psi * (v * WG)[:, None]).T @ Psi
+. RuntimeWarning: divide by zero encountered in divide
+  S = np.stack([La / v, xi * La / v, Lam_tau2(xi, a0, B0, tau2) / v], -1)
+. RuntimeWarning: divide by zero encountered in divide
+  k = h / v
+. RuntimeWarning: invalid value encountered in multiply
+  coef = np.linalg.solve((S * (v * WG)[:, None]).T @ S, (S * (v * WG)[:, None]).T @ k)
+. RuntimeWarning: invalid value encountered in multiply
+  frac = np.sum(WG * v * res ** 2) / np.sum(WG * v * k ** 2)
+. RuntimeWarning: invalid value encountered in multiply
+  return avec, Ivec, P, frac, np.sum(WG * v * res ** 2), np.sum(WG * v * k ** 2), (a0, B0, tau2), np.linalg.eigvalsh(F)
+Traceback (most recent call last):
+  File ".", line 126, in <module>
+    avec, Ivec, P, frac, resn, kn, th, Fev = theory(d, sig, gam, cuts, hb, wn)
+                                             ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ".", line 104, in theory
+    return avec, Ivec, P, frac, np.sum(WG * v * res ** 2), np.sum(WG * v * k ** 2), (a0, B0, tau2), np.linalg.eigvalsh(F)
+                                                                                                    ~~~~~~~~~~~~~~~~~~^^^
+  File ".", line 1319, in eigvalsh
+    w = gufunc(a, signature=signature)
+  File ".", line 110, in _raise_linalgerror_eigenvalues_nonconvergence
+    raise LinAlgError("Eigenvalues did not converge")
+numpy.linalg.LinAlgError: Eigenvalues did not converge

@@ -1,0 +1,2 @@
+﻿n=400 tr Delta_n 2.51e-05  mean tr Delta-hat 0.344 (se 0.014)  median 0.303  ratio 13689.3
+n=1600 tr Delta_n 2.5e-05  mean tr Delta-hat 0.08 (se 0.0048)  median 0.0686  ratio 3202.1

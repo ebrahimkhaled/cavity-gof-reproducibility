@@ -11,9 +11,10 @@ figure of the article and its online supplement. Every simulation writes each re
 | Folder | Contents |
 |---|---|
 | `R/cavity_engine.R` | The cavity test: the one-step leave-one-out (cavity) index, the two- and three-parameter recalibration, the grouped statistic and its reference law (`cav_gof_fast` for ridge, `cav_gof_glmnet` for the lasso and the elastic net, `cav_split_gof` for the sample-split and cross-fitted tests, `cav_from_index` for any externally computed index). |
-| `R/cluster_correction.R` | The twin-share diagnostic (`cav_clusters`, `cav_twin_share`) and the cluster correction tried in Supplementary Section S9.4 (`cav_from_index_cluster`). |
+| `R/cluster_correction.R` | The twin-share diagnostic (`cav_clusters`, `cav_twin_share`) and the cluster correction tried in Supplementary Section S10.5 (`cav_from_index_cluster`). |
 | `R/closedform_engine.R` | The comparator called the *in-sample statistic* in the article: the shrinkage-corrected decile statistic of the companion paper, with its closed-form reference (function `calm.gof`). It also holds the ridge fitter `cf_ridge` used by every script. |
-| `sims/` | One script per simulation study (`E18` to `E44`), the companion-paper data sets reused for power (`E4b`, `E4b2`), and short checks. |
+| `sims/` | One script per simulation study (`E18` to `E44`, `E47c`, `E49` to `E52`), the companion-paper data sets reused for power (`E4b`, `E4b2`), and short checks. |
+| `theory_checks/` | Python checks behind the numerical tables of Supplementary Section S16: the expansion, the pair term, the projected pair term by quadrature and brute-force Monte Carlo, with their stored output (`*_runs.txt`). |
 | `results/` | Outputs: `*_perrep.csv` (one row per replicate), `*_summary.csv` and the console `*.log` of each run. |
 | `figures/` | `make_figures.R`, the figures of the article as vector PDF, and the supplementary QQ plot (`figS_qq.pdf`). |
 | `data_raw/internet_ads/` | The Internet Advertisements data of the UCI Machine Learning Repository (Kushmerick, 1999), as distributed by UCI under CC BY 4.0. |
@@ -50,6 +51,10 @@ figure of the article and its online supplement. Every simulation writes each re
 | Supplementary Section S11 (the self-selection formula) | `E24_selection_formula.R` | `E24_*` |
 | Supplementary Section S13 (the logistic-normal gap, the eigenvalues of the covariance and the conservative reference) | `logistic_normal_gap.R`, `q3_eigen_check.R`, `chi2_dominance_check.R`, `chi2_dominance_three_weights.R`, `q3_reference_check.R` | console |
 | Section 5.2 and Supplementary Section S14 (dependence between leave-one-out indices, before and after the projection) | `dependence_check.py` (Python 3 with NumPy; arguments: seed, penalty, replications, output file, n, p), summarised by `dependence_analyse.py` and `dependence_excess_se.py` | console |
+| Supplementary Section S6 and Section 6.3 (two-parameter size at large n, 1300 replications) | `E25_q2_vs_q3.R`, `E51_tau_confirm.R`, `E51_pool_two_parameter.R` | `E25_*`, `E51_*` |
+| Supplementary Section S16 (null law for a linear index: size, power and glaucoma) | `E47c_standardised.R`, `E47c_summarise.R`, `E49_glaucoma_linear.R` | `E47c_*`, `E49*` |
+| Supplementary Section S16 (numerical checks of the theory) | `theory_checks/` | `theory_checks/*_runs.txt` |
+| Not in the article: a recalibration with tau tied to the slope, tested against rules fixed in the script headers. It failed one clause of those rules, so the article keeps three parameters. `E51` also supplies the two-parameter runs above. | `E50_tau_separate.R`, `E50_summarise.R`, `E51_summarise.R`, `E51_drift_check.R`, `E52_glaucoma_tied.R` | `E50_*`, `E51_*`, `E52_*` |
 
 ## How to run
 
@@ -79,6 +84,7 @@ https://doi.org/10.1145/301136.301186; data DOI https://doi.org/10.24432/C5V011)
 
 ## Changes
 
+- 1.4.0: the linear-index studies (E47c, E49) and the numerical checks of Supplementary Section S16 (`theory_checks/`); 1000 further replications of the two-parameter test at large n (E51), pooled with E25 in `E51_pool_two_parameter.R`, which change the size at n = 20000 from 0.100 to 0.079; the tied-recalibration trial (E50 to E52), not used in the article.
 - 1.3.0: the three-parameter recalibration is the default of the article. New studies E36 to E44: the glaucoma analysis redone with standardisation inside each leave-one-out fit (E36, E36b, E36c) and its placebo (E37); the size of the default at three levels in all 32 designs (E38, with E42 for singular fits); power of the default and the full parametric bootstrap (E39); the residual-prediction test in sparse designs (E40); identification of tau (E41); the sample-split tests with three parameters (E43); the default on the sparse binary designs and the Internet Advertisements placebo (E44). Two new figures; supplementary sections renumbered.
 - 1.2.0: the misfit decomposition and kernel correction (E35f) and the size of the reference simulated
   on the observed design (E35g; stopped after 24 of 60 outer data sets, summary computed from the

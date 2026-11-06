@@ -1,0 +1,4 @@
+real glaucoma, linear index, P at lambda 147.65 295.3 590.6 : 0.0635 0.0372 0.1446 
+corr with logistic cavity index 0.9956  Spearman 0.999  same decile 0.939 
+G=5, lambda 295.3: 0.0525 
+placebo linear index 0.046  at 1% 0.006  default d=3 same y 0.041  NA 0 

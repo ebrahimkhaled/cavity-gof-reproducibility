@@ -1,0 +1,4 @@
+400 fixed theta-bar ratios [0.999 1.006 1.722]
+400 estimated theta(b_hat) ratios [1.004 1.704 3.069]
+800 fixed theta-bar ratios [0.989 1.024 1.731]
+800 estimated theta(b_hat) ratios [1.017 1.716 2.769]

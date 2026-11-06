@@ -1,0 +1,6 @@
+﻿n 196 p 62 adjusted R2 0.535 
+I1_lam147.65   rho2 0.746 kappa 0.583 | P d3 0.0635 (tau 0.001) | T0 0.0635 | tied 0.0493 (tau 2.098)
+I1_lam295.3    rho2 0.719 kappa 0.625 | P d3 0.0372 (tau 0.002) | T0 0.0372 | tied 0.0279 (tau 2.160)
+I1_lam590.6    rho2 0.681 kappa 0.684 | P d3 0.1446 (tau 0.001) | T0 0.1446 | tied 0.1114 (tau 2.209)
+I2_OLS         rho2 0.436 kappa 1.136 | P d3 0.7927 (tau 0.001) | T0 0.7927 | tied 0.1797 (tau 13.192)
+full_295.3     rho2 0.744 kappa 0.587 | P d3 0.0130 (tau 0.001) | T0 0.0130 | tied 0.0098 (tau 1.829)
